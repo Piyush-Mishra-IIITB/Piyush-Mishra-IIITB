@@ -48,16 +48,12 @@ Focused on building **end-to-end ML systems** and production-ready applications.
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)
 
 ---
-
 ## 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB&theme=dark&hide_border=false&include_all_commits=true)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB&theme=dark&layout=compact)
 
 ![](https://nirzak-streak-stats.vercel.app/?user=Piyush-Mishra-IIITB&theme=dark&hide_border=false)
-
-
----
 
 ## 🚀 Focus Areas
 - Data Structures & Algorithms (Java)
