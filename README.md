@@ -13,13 +13,16 @@
 ---
 
 ## 🛠️ Tech & Tools
+
 <p align="left">
   <img src="https://skillicons.dev/icons?i=java,python,sql,numpy,pandas,sklearn,tensorflow,pytorch" />
 </p>
+
 <p align="left">
   <img src="https://skillicons.dev/icons?i=fastapi,flask,mysql,mongodb,git,github,docker,aws,linux" />
 </p>
 
+---
 
 ## 📊 GitHub Stats
 
@@ -27,14 +30,24 @@
   <img src="https://nirzak-streak-stats.vercel.app/?user=Piyush-Mishra-IIITB&theme=dark" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB&show_icons=true&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB&layout=compact&theme=dark" />
+</p>
+
 ---
 
 ## 🌐 Connect With Me
+
 <p align="left">
-<a href="https://linkedin.com/in/piyush-mishra-06432a328" target="blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:piyushmishra8982@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
-</a>
+  <a href="https://linkedin.com/in/piyush-mishra-06432a328" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="mailto:piyushmishra8982@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
+  </a>
 </p>
