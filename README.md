@@ -73,7 +73,7 @@ An **AI-powered recommendation engine** that suggests books based on similarity 
 https://book-recommender-system-gm1e.onrender.com/
 
 🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/Book-Recommendation-System
+https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System
 
 ---
 
@@ -107,7 +107,7 @@ A **regression-based ML model** that predicts student performance from academic 
 https://studentmarkspredictor-ljpaj4enpfwdjrht3nukxt.streamlit.app/
 
 🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/Student-Marks-Predictor
+https://github.com/Piyush-Mishra-IIITB/StudentMarksPredictor
 
 ---
 
