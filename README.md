@@ -90,7 +90,7 @@ A **machine learning classification system** for identifying spam messages with 
 https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/
 
 🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/Spam-Detection
+https://github.com/Piyush-Mishra-IIITB/Spam_Detection
 
 ---
 
