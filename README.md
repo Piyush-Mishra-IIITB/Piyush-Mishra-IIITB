@@ -1,124 +1,147 @@
-<h1 align="center">Hi 👋, I'm Piyush Mishra</h1>
-<h3 align="center">
-AI / ML & Software Engineering Student | DSA (Java) | Generative AI Enthusiast
-</h3>
+# Hi 👋 I'm Piyush Mishra
+
+### AI/ML & Full‑Stack Developer • Generative AI Enthusiast
 
 ---
 
-## 👨‍💻 About Me
-- 🎓 B.Tech student with a strong focus on **Artificial Intelligence, Machine Learning & Software Engineering**
-- 💡 Strong foundation in **Data Structures & Algorithms (Java)**
-- 🤖 Hands-on experience in **Machine Learning, Deep Learning, NLP & Generative AI**
-- 🛠️ Skilled in building **scalable software systems and ML-powered applications**
-- 🚀 Actively preparing for **AI/ML and Software Engineering internships & placements**
-- ⭐ Always open to opportunities in **AI/ML Engineering and Software Development**
+## 🚀 Profile Summary
+
+B.Tech student focused on **Artificial Intelligence, Machine Learning and Software Engineering** with hands‑on experience building production‑style systems combining **ML services + scalable web backends**. Comfortable across the full pipeline — data → model → API → UI → deployment.
+
+* Strong problem‑solving background (**DSA in Java**)
+* Built multi‑service applications integrating **ML inference into real products**
+* Experience with **REST APIs, authentication, payments, and real‑time systems**
+* Interested in **AI/ML Engineering & Backend‑heavy SWE roles**
 
 ---
 
-## 🛠️ Tech & Tools
+## 🧠 Core Competencies
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,python,js,sql,numpy,pandas,sklearn,tensorflow,pytorch,nodejs,express,fastapi,flask,mongodb,mysql,git,github,docker,aws,linux" />
-</p>
+**Machine Learning & AI**
+
+* Supervised & Unsupervised Learning
+* NLP & Text Classification
+* Recommendation Systems
+* Model Evaluation & Feature Engineering
+* Model Deployment (FastAPI inference services)
+
+**Software Engineering**
+
+* Backend architecture & REST APIs
+* Authentication & authorization flows
+* Database schema design
+* Microservice communication
+* Production debugging & error handling
+
+**Full‑Stack Development**
+
+* React UI + API integration
+* Real‑time workflows & dashboards
+* Payment gateway integration
+* Cloud media storage
 
 ---
 
-## 📊 GitHub Stats
+## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Piyush-Mishra-IIITB&theme=dark" />
-</p>
+**Languages**
+`Java` `Python` `JavaScript` `SQL`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB&show_icons=true&theme=dark" />
-</p>
+**AI / ML**
+`NumPy` `Pandas` `Scikit‑learn` `TensorFlow` `PyTorch`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB&layout=compact&theme=dark" />
-</p>
+**Backend**
+`Node.js` `Express.js` `FastAPI` `Flask`
+
+**Frontend**
+`React.js`
+
+**Database**
+`MongoDB` `MySQL`
+
+**DevOps & Tools**
+`Git` `Docker` `Linux` `AWS` `Cloudinary` `Render`
 
 ---
 
 ## 📌 Featured Projects
 
-### 🔹 StayNext – Full-Stack Accommodation Platform
-A **full-stack web application** inspired by Airbnb, focused purely on **software engineering and backend scalability**.
+### 🏥 MedLink360 — AI Doctor Recommendation Platform
 
-**Highlights**
-- Secure authentication & authorization  
-- RESTful APIs and MVC architecture  
-- Backend built with **Node.js & Express.js**  
-- Database design using **MongoDB & Mongoose**  
-- Image upload with cloud storage  
-- Deployed on **Render**
+**Full‑stack healthcare system combining ML + microservices**
 
-🔗 Live:  
-https://stay-next.onrender.com  
+**What it does**
+MedLink360 is a full-stack doctor appointment platform that connects patients, doctors, and administrators in a single system. Users can browse doctors, book and manage appointments, and pay online, while doctors manage bookings and earnings and admins oversee the entire platform. It also includes an integrated AI health assistant.
 
-🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/StayNext
+**Key Engineering Work**
 
----
+* Multi‑role architecture: Patient / Doctor / Admin dashboards
+* ML inference microservice (FastAPI + Scikit‑learn)
+* Secure authentication & role‑based access
+* Razorpay payment integration
+* Real‑time appointment lifecycle
+* Cloud image storage (Cloudinary)
 
-### 🔹 Book Recommendation System
-An **AI-powered recommendation engine** that suggests books based on similarity and user preferences.
+**Tech:** React • Node • Express • MongoDB • FastAPI • Scikit‑learn
 
-**Highlights**
-- Content-based and collaborative filtering  
-- Cosine similarity for recommendation ranking  
-- Feature engineering and data preprocessing  
-- Built using **Python, Pandas, NumPy, Scikit-learn**
+Live: [https://medlink360-frontend.onrender.com](https://medlink360-frontend.onrender.com)
 
-🔗 Live:  
-https://book-recommender-system-gm1e.onrender.com/
-
-🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System
+Repo: [https://github.com/Piyush-Mishra-IIITB/MedLink360](https://github.com/Piyush-Mishra-IIITB/MedLink360)
 
 ---
 
-### 🔹 Spam Detection System
-A **machine learning classification system** for identifying spam messages with high accuracy.
+### 🏠 StayNext — Accommodation Booking Platform
 
-**Highlights**
-- Text preprocessing and vectorization (TF-IDF)  
-- Supervised ML classification models  
-- Performance evaluation and tuning  
-- Implemented using **Python, NLP, Scikit-learn**
+**Backend‑focused scalable web application**
 
-🔗 Live:  
-https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/
+* MVC architecture & REST APIs
+* Authentication & authorization
+* Image upload & storage pipeline
+* MongoDB schema design
 
-🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/Spam_Detection
+Live: [https://stay-next.onrender.com](https://stay-next.onrender.com)
+
+Repo: [https://github.com/Piyush-Mishra-IIITB/StayNext](https://github.com/Piyush-Mishra-IIITB/StayNext)
 
 ---
 
-### 🔹 Student Marks Predictor
-A **regression-based ML model** that predicts student performance from academic and behavioral features.
+### 📚 Book Recommendation System
 
-**Highlights**
-- Feature engineering and normalization  
-- Regression model training and evaluation  
-- Error analysis and optimization  
-- Built using **Python, Pandas, Scikit-learn**
+Content + collaborative filtering recommendation engine using cosine similarity and feature engineering.
 
-🔗 Live:  
-https://studentmarkspredictor-ljpaj4enpfwdjrht3nukxt.streamlit.app/
+Live: [https://book-recommender-system-gm1e.onrender.com/](https://book-recommender-system-gm1e.onrender.com/)
 
-🔗 Repository:  
-https://github.com/Piyush-Mishra-IIITB/StudentMarksPredictor
+Repo: [https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System](https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System)
 
 ---
 
-## 🌐 Connect With Me
+### ✉️ Spam Detection System
 
-<p align="left">
-  <a href="https://linkedin.com/in/piyush-mishra-06432a328" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
-  </a>
+TF‑IDF based NLP classifier for spam identification with preprocessing and evaluation pipeline.
 
-  <a href="mailto:piyushmishra8982@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
-  </a>
-</p>
+Live: [https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/](https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/)
+
+Repo: [https://github.com/Piyush-Mishra-IIITB/Spam_Detection](https://github.com/Piyush-Mishra-IIITB/Spam_Detection)
+
+---
+
+## 📊 GitHub Analytics
+
+![stats](https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB\&show_icons=true\&theme=dark)
+
+![streak](https://nirzak-streak-stats.vercel.app/?user=Piyush-Mishra-IIITB\&theme=dark)
+
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB\&layout=compact\&theme=dark)
+
+---
+
+## 🤝 Connect
+
+LinkedIn: [https://linkedin.com/in/piyush-mishra-06432a328](https://linkedin.com/in/piyush-mishra-06432a328)
+
+Email: [piyushmishra8982@gmail.com](mailto:piyushmishra8982@gmail.com)
+
+---
+
+⭐ Always open to work
+
