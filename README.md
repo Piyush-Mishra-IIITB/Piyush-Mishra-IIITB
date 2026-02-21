@@ -66,7 +66,7 @@ B.Tech student focused on **Artificial Intelligence, Machine Learning and Softwa
 
 ## 📌 Featured Projects
 
-### 🏥 MedLink360 — AI Doctor Recommendation Platform
+### 🏥 Prescripto — AI Doctor Recommendation Platform
 
 **Full‑stack healthcare system combining ML + microservices**
 
@@ -86,7 +86,7 @@ MedLink360 is a full-stack doctor appointment platform that connects patients, d
 
 Live: [https://medlink360-frontend.onrender.com](https://medlink360-frontend.onrender.com)
 
-Repo: [https://github.com/Piyush-Mishra-IIITB/MedLink360](https://github.com/Piyush-Mishra-IIITB/MedLink360)
+Repo: [https://github.com/Piyush-Mishra-IIITB/MedLink360](https://github.com/Piyush-Mishra-IIITB/Prescripto)
 
 ---
 
