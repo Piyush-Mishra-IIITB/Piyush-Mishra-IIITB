@@ -86,7 +86,7 @@ MedLink360 is a full-stack doctor appointment platform that connects patients, d
 
 Live: [https://medlink360-frontend.onrender.com](https://medlink360-frontend.onrender.com)
 
-Repo: [https://github.com/Piyush-Mishra-IIITB/MedLink360](https://github.com/Piyush-Mishra-IIITB/Prescripto)
+Repo: [https://github.com/Piyush-Mishra-IIITB/Prescripto](https://github.com/Piyush-Mishra-IIITB/Prescripto)
 
 ---
 
