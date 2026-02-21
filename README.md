@@ -71,7 +71,7 @@ B.Tech student focused on **Artificial Intelligence, Machine Learning and Softwa
 **Full‑stack healthcare system combining ML + microservices**
 
 **What it does**
-MedLink360 is a full-stack doctor appointment platform that connects patients, doctors, and administrators in a single system. Users can browse doctors, book and manage appointments, and pay online, while doctors manage bookings and earnings and admins oversee the entire platform. It also includes an integrated AI health assistant.
+Prescripto is a full-stack doctor appointment platform that connects patients, doctors, and administrators in a single system. Users can browse doctors, book and manage appointments, and pay online, while doctors manage bookings and earnings and admins oversee the entire platform. It also includes an integrated AI health assistant.
 
 **Key Engineering Work**
 
