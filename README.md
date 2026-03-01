@@ -1,147 +1,160 @@
 # Hi 👋 I'm Piyush Mishra
 
-### AI/ML & Full‑Stack Developer • Generative AI Enthusiast
+### AI / ML Engineer & Backend-Focused Full-Stack Developer
+
+I build end-to-end intelligent systems — from model training to production deployment — including real-time applications, ML inference services, and scalable backend APIs.
+
+Currently focused on **AI Engineering, Backend Systems, and Realtime Architectures**.
 
 ---
 
-## 🚀 Profile Summary
+## 🚀 Engineering Profile
 
-B.Tech student focused on **Artificial Intelligence, Machine Learning and Software Engineering** with hands‑on experience building production‑style systems combining **ML services + scalable web backends**. Comfortable across the full pipeline — data → model → API → UI → deployment.
+B.Tech student experienced in designing and deploying multi-service applications that integrate:
 
-* Strong problem‑solving background (**DSA in Java**)
-* Built multi‑service applications integrating **ML inference into real products**
-* Experience with **REST APIs, authentication, payments, and real‑time systems**
-* Interested in **AI/ML Engineering & Backend‑heavy SWE roles**
+* Machine Learning inference
+* REST & realtime communication
+* Role-based backend architectures
+* Payment workflows
+* Production debugging & failure handling
+
+I work across the full lifecycle:
+
+```
+Data → Model → API → Realtime Layer → UI → Deployment → Monitoring
+```
+
+Strong fundamentals in **DSA (Java)** and backend-heavy software engineering.
 
 ---
 
-## 🧠 Core Competencies
+## 🧠 Technical Expertise
 
-**Machine Learning & AI**
+### AI / Machine Learning
 
-* Supervised & Unsupervised Learning
-* NLP & Text Classification
-* Recommendation Systems
-* Model Evaluation & Feature Engineering
-* Model Deployment (FastAPI inference services)
+* NLP classification systems
+* Recommendation engines
+* Feature engineering & evaluation pipelines
+* Model serving (FastAPI inference servers)
+* ML + application integration
 
-**Software Engineering**
+### Backend Engineering
 
-* Backend architecture & REST APIs
-* Authentication & authorization flows
-* Database schema design
-* Microservice communication
-* Production debugging & error handling
+* Scalable REST API design
+* JWT authentication & authorization
+* Database schema modeling
+* Realtime communication (Socket.IO)
+* WebRTC signaling & peer coordination
+* Payment verification workflows
 
-**Full‑Stack Development**
+### Full-Stack Systems
 
-* React UI + API integration
-* Real‑time workflows & dashboards
-* Payment gateway integration
-* Cloud media storage
+* React UI with API-driven state
+* Realtime dashboards
+* Video consultation interfaces
+* Media upload pipelines
 
 ---
 
 ## 🛠 Tech Stack
 
 **Languages**
-`Java` `Python` `JavaScript` `SQL`
+Java • Python • JavaScript • SQL
 
-**AI / ML**
-`NumPy` `Pandas` `Scikit‑learn` `TensorFlow` `PyTorch`
+**AI/ML**
+NumPy • Pandas • Scikit-learn • TensorFlow • PyTorch
 
 **Backend**
-`Node.js` `Express.js` `FastAPI` `Flask`
+Node.js • Express.js • FastAPI • Flask
 
 **Frontend**
-`React.js`
+React.js • Context API • Tailwind
 
 **Database**
-`MongoDB` `MySQL`
+MongoDB • MySQL
+
+**Realtime & Systems**
+WebRTC • Socket.IO • REST APIs
 
 **DevOps & Tools**
-`Git` `Docker` `Linux` `AWS` `Cloudinary` `Render`
+Git • Docker • Linux • AWS • Cloudinary • Render
 
 ---
 
-## 📌 Featured Projects
+## 📌 Selected Projects
 
-### 🏥 Prescripto — AI Doctor Recommendation Platform
+### 🏥 Prescripto — AI Tele-Consultation & Doctor Recommendation Platform
 
-**Full‑stack healthcare system combining ML + microservices**
-
-**What it does**
-Prescripto is a full-stack doctor appointment platform that connects patients, doctors, and administrators in a single system. Users can browse doctors, book and manage appointments, and pay online, while doctors manage bookings and earnings and admins oversee the entire platform. It also includes an integrated AI health assistant.
+Full production-style healthcare system combining ML inference, realtime communication, and multi-role dashboards.
 
 **Key Engineering Work**
 
-* Multi‑role architecture: Patient / Doctor / Admin dashboards
-* ML inference microservice (FastAPI + Scikit‑learn)
-* Secure authentication & role‑based access
-* Razorpay payment integration
-* Real‑time appointment lifecycle
-* Cloud image storage (Cloudinary)
+* ML triage engine predicting medical specialist from symptoms
+* WebRTC video consultation with authoritative room state
+* Secure multi-role architecture (Patient / Doctor / Admin)
+* Razorpay payment workflow & verification
+* Chat + consultation lifecycle synchronization
+* FastAPI ML microservice + Node backend integration
 
-**Tech:** React • Node • Express • MongoDB • FastAPI • Scikit‑learn
+**Tech:** React • Node • MongoDB • Socket.IO • WebRTC • FastAPI • Scikit-learn
 
-Live: [https://medlink360-frontend.onrender.com](https://medlink360-frontend.onrender.com)
+Live: https://medlink360-frontend.onrender.com
 
-Repo: [https://github.com/Piyush-Mishra-IIITB/Prescripto](https://github.com/Piyush-Mishra-IIITB/Prescripto)
+Repo: https://github.com/Piyush-Mishra-IIITB/Prescripto
 
 ---
 
-### 🏠 StayNext — Accommodation Booking Platform
+### 🏠 StayNext — Accommodation Booking Backend System
 
-**Backend‑focused scalable web application**
+Backend-centric booking platform focused on API architecture.
 
-* MVC architecture & REST APIs
+* MVC architecture
 * Authentication & authorization
-* Image upload & storage pipeline
-* MongoDB schema design
+* Image storage pipeline
+* Database relationship modeling
 
-Live: [https://stay-next.onrender.com](https://stay-next.onrender.com)
+Live: https://stay-next.onrender.com
 
-Repo: [https://github.com/Piyush-Mishra-IIITB/StayNext](https://github.com/Piyush-Mishra-IIITB/StayNext)
-
----
-
-### 📚 Book Recommendation System
-
-Content + collaborative filtering recommendation engine using cosine similarity and feature engineering.
-
-Live: [https://book-recommender-system-gm1e.onrender.com/](https://book-recommender-system-gm1e.onrender.com/)
-
-Repo: [https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System](https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System)
+Repo: https://github.com/Piyush-Mishra-IIITB/StayNext
 
 ---
 
-### ✉️ Spam Detection System
+### 📚 Book Recommendation Engine
 
-TF‑IDF based NLP classifier for spam identification with preprocessing and evaluation pipeline.
+Content + collaborative filtering using similarity metrics and feature engineering.
 
-Live: [https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/](https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/)
+Live: https://book-recommender-system-gm1e.onrender.com/
 
-Repo: [https://github.com/Piyush-Mishra-IIITB/Spam_Detection](https://github.com/Piyush-Mishra-IIITB/Spam_Detection)
+Repo: https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System
 
 ---
 
-## 📊 GitHub Analytics
+### ✉️ NLP Spam Detection System
+
+TF-IDF text classifier with preprocessing and evaluation pipeline.
+
+Live: https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/
+
+Repo: https://github.com/Piyush-Mishra-IIITB/Spam_Detection
+
+---
+
+## 📊 GitHub Stats
 
 ![stats](https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB\&show_icons=true\&theme=dark)
-
 ![streak](https://nirzak-streak-stats.vercel.app/?user=Piyush-Mishra-IIITB\&theme=dark)
-
 ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB\&layout=compact\&theme=dark)
 
 ---
 
 ## 🤝 Connect
 
-LinkedIn: [https://linkedin.com/in/piyush-mishra-06432a328](https://linkedin.com/in/piyush-mishra-06432a328)
+LinkedIn: https://linkedin.com/in/piyush-mishra-06432a328
 
 Email: [piyushmishra8982@gmail.com](mailto:piyushmishra8982@gmail.com)
 
 ---
 
-⭐ Always open to work
+⭐ Open to AI Engineering / Backend SWE internships & roles
+
 
