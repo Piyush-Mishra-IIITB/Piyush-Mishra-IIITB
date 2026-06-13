@@ -141,10 +141,17 @@ Repo: https://github.com/Piyush-Mishra-IIITB/Spam_Detection
 
 ## 📊 GitHub Stats
 
-![stats](https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB\&show_icons=true\&theme=dark)
-![streak](https://nirzak-streak-stats.vercel.app/?user=Piyush-Mishra-IIITB\&theme=dark)
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB\&layout=compact\&theme=dark)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB&show_icons=true&theme=tokyonight" />
+</p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Piyush-Mishra-IIITB&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB&layout=compact&theme=tokyonight" />
+</p>
 ---
 
 ## 🤝 Connect
