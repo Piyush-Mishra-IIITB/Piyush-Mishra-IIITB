@@ -1,159 +1,277 @@
+
+
 # Hi 👋 I'm Piyush Mishra
 
 ### AI / ML Engineer & Backend-Focused Full-Stack Developer
 
-I build end-to-end intelligent systems — from model training to production deployment — including real-time applications, ML inference services, and scalable backend APIs.
+I build **production-oriented intelligent and distributed systems**,
+combining AI/ML, backend engineering, realtime communication, and
+scalable architectures.
 
-Currently focused on **AI Engineering, Backend Systems, and Realtime Architectures**.
+Currently focused on **AI Engineering, Backend Systems, Distributed
+Systems, and Realtime Architectures**.
 
----
+------------------------------------------------------------------------
 
 ## 🚀 Engineering Profile
 
-B.Tech student experienced in designing and deploying multi-service applications that integrate:
+B.Tech student with hands-on experience building and deploying
+**multi-service applications** involving:
 
-* Machine Learning inference
-* REST & realtime communication
-* Role-based backend architectures
-* Payment workflows
-* Production debugging & failure handling
+-   Machine Learning inference
+-   RAG-based AI systems
+-   REST APIs & microservices
+-   Distributed systems
+-   Event-driven architectures
+-   Realtime communication
+-   Authentication & authorization
+-   Payment workflows
+-   Caching & distributed locking
+-   Production debugging and failure handling
 
-I work across the full lifecycle:
+I work across the complete engineering lifecycle:
 
+``` text
+Data / Knowledge → AI / ML → Services → APIs → Realtime Systems → Infrastructure → Deployment
 ```
-Data → Model → API → Realtime Layer → UI → Deployment → Monitoring
-```
 
-Strong fundamentals in **DSA (Java)** and backend-heavy software engineering.
+Strong fundamentals in **DSA with Java**, backend development, AI
+engineering, and system design.
 
----
+------------------------------------------------------------------------
 
 ## 🧠 Technical Expertise
 
 ### AI / Machine Learning
 
-* NLP classification systems
-* Recommendation engines
-* Feature engineering & evaluation pipelines
-* Model serving (FastAPI inference servers)
-* ML + application integration
+-   NLP classification systems
+-   Recommendation systems
+-   Retrieval-Augmented Generation (RAG)
+-   Semantic search & knowledge retrieval
+-   Feature engineering
+-   Model evaluation & inference
+-   ML model deployment with FastAPI
+-   ML + backend service integration
 
 ### Backend Engineering
 
-* Scalable REST API design
-* JWT authentication & authorization
-* Database schema modeling
-* Realtime communication (Socket.IO)
-* WebRTC signaling & peer coordination
-* Payment verification workflows
+-   REST API design
+-   Microservice architecture
+-   JWT authentication & role-based authorization
+-   MongoDB & SQL database modeling
+-   Redis caching & distributed locking
+-   RabbitMQ event-driven architecture
+-   Transactional Outbox pattern
+-   Idempotent event processing
+-   Payment workflows & verification
+-   API Gateway architecture
 
-### Full-Stack Systems
+### Realtime Systems
 
-* React UI with API-driven state
-* Realtime dashboards
-* Video consultation interfaces
-* Media upload pipelines
+-   Socket.IO
+-   WebRTC
+-   Realtime chat
+-   Video consultation
+-   WebRTC signaling
+-   Realtime state synchronization
 
----
+### Distributed Systems
+
+-   Service-to-service communication
+-   Event-driven architecture
+-   Message queues
+-   Retry mechanisms
+-   Dead Letter Queues (DLQ)
+-   Failure recovery
+-   Distributed locks
+-   Kubernetes & containerized services
+
+------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
 
 **Languages**
+
 Java • Python • JavaScript • SQL
 
-**AI/ML**
-NumPy • Pandas • Scikit-learn • TensorFlow • PyTorch
+**AI / ML**
+
+NumPy • Pandas • Scikit-learn • TensorFlow • PyTorch • RAG
 
 **Backend**
+
 Node.js • Express.js • FastAPI • Flask
 
 **Frontend**
-React.js • Context API • Tailwind
 
-**Database**
+React.js • Context API • Tailwind CSS
+
+**Databases**
+
 MongoDB • MySQL
 
-**Realtime & Systems**
-WebRTC • Socket.IO • REST APIs
+**Distributed & Realtime Systems**
 
-**DevOps & Tools**
-Git • Docker • Linux • AWS • Cloudinary • Render
+Redis • RabbitMQ • Socket.IO • WebRTC • REST APIs
 
----
+**DevOps & Infrastructure**
 
-## 📌 Selected Projects
+Docker • Docker Compose • Kubernetes • Minikube • Git • Linux • AWS •
+Render
 
-### 🏥 Prescripto — AI Tele-Consultation & Doctor Recommendation Platform
+------------------------------------------------------------------------
 
-Full production-style healthcare system combining ML inference, realtime communication, and multi-role dashboards.
+# 📌 Featured Projects
 
-**Key Engineering Work**
+## 🍔 FoodMesh --- Distributed Food Delivery Platform
 
-* ML triage engine predicting medical specialist from symptoms
-* WebRTC video consultation with authoritative room state
-* Secure multi-role architecture (Patient / Doctor / Admin)
-* Razorpay payment workflow & verification
-* Chat + consultation lifecycle synchronization
-* FastAPI ML microservice + Node backend integration
+A backend-focused **distributed food delivery system** designed using
+microservices and event-driven architecture principles.
 
-**Tech:** React • Node • MongoDB • Socket.IO • WebRTC • FastAPI • Scikit-learn
+The project focuses on building a reliable backend capable of handling
+**service communication, caching, distributed locking, asynchronous
+events, retries, idempotency, and failure recovery**.
 
-Live: https://medlink360-frontend.onrender.com
+### Architecture & Engineering Work
 
-Repo: https://github.com/Piyush-Mishra-IIITB/Prescripto
+-   Designed a multi-service architecture for:
+    -   User Service
+    -   Restaurant Service
+    -   Order Service
+    -   Delivery Service
+    -   Payment Service
+    -   API Gateway
+-   Implemented **API Gateway** for centralized routing and request
+    handling
+-   Added authentication and role-based authorization across services
+-   Implemented **Redis caching** for frequently accessed restaurant
+    data
+-   Implemented **Redis distributed locking** for delivery-partner
+    assignment
+-   Integrated **RabbitMQ** for asynchronous event-driven communication
+-   Implemented the **Transactional Outbox Pattern** for reliable event
+    publishing
+-   Added **idempotent event processing** to handle duplicate RabbitMQ
+    deliveries
+-   Implemented payment processing with:
+    -   Retry mechanisms
+    -   Bounded retries
+    -   Dead Letter Queue (DLQ)
+    -   DLQ recovery
+-   Added request IDs and persistent gateway logging for observability
+-   Implemented API rate limiting
+-   Dockerized the complete system
+-   Created Kubernetes / Minikube deployment manifests using Kustomize
 
----
+### Architecture
 
-### 🏠 StayNext — Accommodation Booking Backend System
+``` text
+                         ┌─────────────────┐
+                         │   API Gateway   │
+                         │      :5000      │
+                         └────────┬────────┘
+                                  │
+          ┌───────────────┬───────┼────────┬───────────────┐
+          │               │       │        │               │
+          ▼               ▼       ▼        ▼               ▼
+     User Service   Restaurant  Order   Delivery       Payment
+        :5001         :5002     :5003    :5004          :5005
+          │               │       │        │               │
+          └───────────────┴───────┴────────┴───────────────┘
+                                  │
+                    ┌─────────────┼─────────────┐
+                    │             │             │
+                    ▼             ▼             ▼
+                 MongoDB        Redis       RabbitMQ
+```
 
-Backend-centric booking platform focused on API architecture.
+**Tech:** Node.js • Express.js • MongoDB • Redis • RabbitMQ • Docker •
+Kubernetes • Minikube
 
-* MVC architecture
-* Authentication & authorization
-* Image storage pipeline
-* Database relationship modeling
+📂 **Repository:** https://github.com/Piyush-Mishra-IIITB/FoodMesh
 
-Live: https://stay-next.onrender.com
+------------------------------------------------------------------------
 
-Repo: https://github.com/Piyush-Mishra-IIITB/StayNext
+## 🏥 Prescripto --- AI Tele-Consultation & Doctor Recommendation Platform
 
----
+A production-style healthcare platform combining **AI-powered doctor
+recommendation, Retrieval-Augmented Generation (RAG), realtime
+communication, video consultation, payments, and multi-role backend
+architecture**.
 
-### 📚 Book Recommendation Engine
+### Key Engineering Work
 
-Content + collaborative filtering using similarity metrics and feature engineering.
+-   Built an **ML triage engine** that predicts the appropriate medical
+    specialist from patient symptoms
+-   Implemented a **RAG-based healthcare knowledge system** to retrieve
+    relevant medical information and provide context-aware responses
+-   Designed the RAG pipeline around **knowledge retrieval + contextual
+    generation**, reducing reliance on model-only responses
+-   Deployed ML inference through a **FastAPI microservice**
+-   Integrated AI services with the Node.js backend
+-   Implemented secure **Patient / Doctor / Admin** role-based
+    architecture
+-   Built realtime doctor-patient communication using **Socket.IO**
+-   Implemented **WebRTC video consultations** with authoritative
+    room-state management
+-   Implemented Razorpay payment workflow and verification
+-   Built realtime chat and consultation lifecycle synchronization
+-   Developed React dashboards for different user roles
+-   Designed backend APIs for appointments, doctors, patients,
+    consultations, payments, and AI-powered workflows
 
-Live: https://book-recommender-system-gm1e.onrender.com/
+**Tech:** React • Node.js • Express.js • MongoDB • Socket.IO • WebRTC •
+FastAPI • Scikit-learn • RAG
 
-Repo: https://github.com/Piyush-Mishra-IIITB/Book_Recommendation_System
+🌐 **Live:** https://medlink360-frontend.onrender.com
 
----
+📂 **Repository:** https://github.com/Piyush-Mishra-IIITB/Prescripto
 
-### ✉️ NLP Spam Detection System
+------------------------------------------------------------------------
 
-TF-IDF text classifier with preprocessing and evaluation pipeline.
+## 📚 Core Strengths
 
-Live: https://spamdetection-knhq2u2a4adhxxumb4ywr.streamlit.app/
+``` text
+DSA (Java)
+    ↓
+Backend Engineering
+    ↓
+Microservices
+    ↓
+Distributed Systems
+    ↓
+AI / ML & RAG
+    ↓
+Realtime Systems
+    ↓
+Docker & Kubernetes
+```
 
-Repo: https://github.com/Piyush-Mishra-IIITB/Spam_Detection
+I enjoy working on systems where **software engineering, AI, and
+distributed architecture intersect**.
 
----
+------------------------------------------------------------------------
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB&show_icons=true&theme=tokyonight)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Piyush-Mishra-IIITB&theme=tokyonight)
+![GitHub
+Stats](https://github-readme-stats.vercel.app/api?username=Piyush-Mishra-IIITB&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB&layout=compact&theme=tokyonight)
+![GitHub
+Streak](https://streak-stats.demolab.com?user=Piyush-Mishra-IIITB&theme=tokyonight)
+
+![Top
+Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush-Mishra-IIITB&layout=compact&theme=tokyonight)
+
+------------------------------------------------------------------------
 
 ## 🤝 Connect
 
-LinkedIn: https://linkedin.com/in/piyush-mishra-06432a328
+**LinkedIn:** https://linkedin.com/in/piyush-mishra-06432a328
 
-Email: [piyushmishra8982@gmail.com](mailto:piyushmishra8982@gmail.com)
+**Email:** piyushmishra8982@gmail.com
 
----
+------------------------------------------------------------------------
 
-⭐ Open to AI Engineering / Backend SWE internships & roles
-
-
+⭐ Open to **AI Engineering, Backend SWE, Distributed Systems, and
+Software Engineering internships & opportunities**.
