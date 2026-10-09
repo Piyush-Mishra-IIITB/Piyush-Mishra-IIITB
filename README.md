@@ -162,6 +162,8 @@ events, retries, idempotency, and failure recovery**.
 -   Implemented API rate limiting
 -   Dockerized the complete system
 -   Created Kubernetes / Minikube deployment manifests using Kustomize
+-   k6 performance benchmark: Tested GET /api/restaurants through the API Gateway with 1 virtual user for 60 seconds; recorded 60/60 successful responses, 4.68 ms average latency, and 5.98 ms p95 latency in a local, low-load benchmark.
+
 
 ### Architecture
 
